@@ -6,7 +6,7 @@
 body {
     font-family: 'PT Sans', sans-serif;
     font-size: 16px;
-    background-color: #666;
+    background-color: #1B1D29;
     color: rgba(0, 0, 0, 0.8);
 }
 
@@ -25,13 +25,13 @@ p {
     text-indent: 50px;
 }
 
-/* Formataçao simples de links */
+/* Formataçao simples dos links */
 a {
     color: darkblue;
     text-decoration: none;
 }
 
-a:hover {
+p a:hover {
     color: aqua;
 }
 
@@ -43,8 +43,36 @@ header#cabecalho h2 {
     font-family: 'Titillium Web', sans-serif;
 }
 
+/* Formataçao do menu*/
+nav#menu {
+    display: block;
+}
 
+nav#menu ul {
+    list-style: none;
+    text-transform: lowercase;
+    position: absolute;
+    top: -10px;
+    left: 600px;
+}
 
+nav#menu li {
+    display: inline-block;
+    background-color: #24272F;
+    padding: 10px;
+    margin: 2px;
+}
 
+nav#menu li:hover {
+    background-color: #0E121F;
+}
 
+/* Formataçao simples de links de dentro do menu */
+nav#menu a {
+    color: #ccc;
+    text-decoration: none;
+}
 
+nav#menu a:hover {
+    color: aqua;
+}
