@@ -2,6 +2,12 @@
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web); /* Fonte Titillium Web */
 @import url(http://fonts.googleapis.com/css?family=PT+Sans); /* Fonte PT Sans */
 
+/* Formataçao do Cabeçalho */
+header#cabecalho {
+    border-bottom: 1px #1B1D29 solid;
+    height: 150px;
+}
+
 /* Formataçao simples do corpo */
 body {
     font-family: 'PT Sans', sans-serif;
@@ -75,4 +81,10 @@ nav#menu a {
 
 nav#menu a:hover {
     color: aqua;
+}
+
+/* Formataçao do rodape */
+footer#rodape {
+    border-top: 1px #1B1D29 solid;
+    height: 150px;
 }
