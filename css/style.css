@@ -4,6 +4,7 @@
 
 /* Formataçao do Cabeçalho */
 header#cabecalho {
+    background-color: #1B1D29;
     border-bottom: 1px #1B1D29 solid;
     height: 150px;
 }
@@ -64,13 +65,8 @@ nav#menu ul {
 
 nav#menu li {
     display: inline-block;
-    background-color: #24272F;
     padding: 10px;
     margin: 2px;
-}
-
-nav#menu li:hover {
-    background-color: #0E121F;
 }
 
 /* Formataçao simples de links de dentro do menu */
