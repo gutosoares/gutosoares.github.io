@@ -4,9 +4,9 @@
 
 /* Formataçao do Cabeçalho */
 header#cabecalho {
-    background-color: #1B1D29;
+    background-color: #fff;
     border-bottom: 1px #1B1D29 solid;
-    height: 150px;
+    height: 100px;
 }
 
 /* Formataçao simples do corpo */
