@@ -4,25 +4,30 @@
 
 /* Formataçao do Cabeçalho */
 header#cabecalho {
-    background-color: #fff;
-    border-bottom: 1px #1B1D29 solid;
-    height: 100px;
+    border-bottom: 1px #e0e0e0 solid;
+    height: 150px;
+    width: 1200px;
+}
+
+/* Formatação do logotipo */
+header h1 a {
+    background: url(img/augusto4.jpg) no-repeat;
+    display: block;
+    float: left;
+    text-indent: -9999;
+    width: 700px;
 }
 
 /* Formataçao simples do corpo */
 body {
-    font-family: 'PT Sans', sans-serif;
-    font-size: 16px;
-    background-color: #1B1D29;
-    color: rgba(0, 0, 0, 0.8);
-}
-
-div#interface {
-    background-color: #ccc;
-    width: 900px;
-    margin: -20px auto 0px auto; /* superior, direita, baixo, esquerda */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    padding: 10px; /* superior, direita, baixo, esquerda */
+    background: url(imagens/background.jpg);
+    font-family: 'Open Sans', Helvetica, sans-serif, arial;
+    color: #868686;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+    text-shadow: 1px 1px 0px #fff;
 }
 
 /* Formataçao simples do paragrafo */
