@@ -7,35 +7,58 @@ header#cabecalho {
     border-bottom: 2px #868686 solid;
     background-image: url("../imagens/augusto4.png");
     background-repeat: no-repeat;
-    height: 300px;
-    width: 1200px;
+    height: 100px;
+    width: 940px;
 }
 
 /* Formatação do logotipo */
 header#cabecalho h1 a {
     display: block;
     float: left;
-    text-indent: -9999;
-    width: 700px;
+    width: 70px;
+    margin: 10px auto 10px auto;
 }
 
 /* Formataçao simples do corpo */
 body {
     background-image: url("../imagens/background.jpg");
-    font-family: 'Open Sans', Helvetica, sans-serif, arial;
+    font-family: 'Open Sans', "Arial", "Helvetica", sans-serif;
     color: #868686;
     font-size: 18px;
     font-weight: 300;
     line-height: 22px;
-    text-align: left;
-    text-shadow: 1px 1px 0px #fff;
+    text-align: center;
+    width: 940px;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* Formataçao simples do paragrafo */
 p {
     font-family: 'Open Sans', 'PT Sans', Helvetica sans-serif;
     text-align: justify;
-    text-indent: 50px;
+    text-indent: 30px;
+    margin: 20px auto;
+    padding: 0 45px;
+}
+
+/* Formatação da section principal */
+section#corpo h1 {
+    color: #fe9380;
+    text-align: left;
+}
+
+section#corpo ul {
+    text-align: left;
+}
+
+section#corpo li {
+    margin: auto;
+}
+
+section#corpo li:hover {
+    color: #fe9380;
 }
 
 /* Formataçao simples dos links */
@@ -69,7 +92,7 @@ nav#menu ul {
 nav#menu li {
     display: inline-block;
     padding: 10px;
-    margin: 2px;
+    margin: 10px auto 10px auto;
 }
 
 /* Formataçao simples de links de dentro do menu */
@@ -87,8 +110,10 @@ nav#menu a:hover {
 footer#rodape {
     text-align: center;
     border-top: 2px #868686 solid;
-    height: 80px;
-    width: 1200px;
+    margin: 10px 0;
+    padding: 10px 0;
+    height: 10px;
+    width: 940px;
 }
 
 footer#rodape p {
